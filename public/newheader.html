@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/newheader.css">
+  <title>Document</title>
+  <style>
+    /* 一楼img放大 */
+    .my-f1-img:hover{
+      
+      transform: scale(1.1) ;
+      transition: 1s;
+
+    }
+    .my-f1-img:hover::after{
+      content: "love";
+      display: inline-block;
+      
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row mt-4 text-center">
+      <div class="col-lg-4 f1-left m-auto ">
+        <img src="../image/icon_location.png" alt="">
+        <span>成都</span>
+        <input type="search" class="input_img">
+      </div>
+      <div class="col-lg-4 col-12 m-auto">
+        <img src="../image/logo.png" alt="" class="w-75">
+      </div>
+      <div class="col-lg-4 f1-left m-auto">
+        <img src="../image/icon_tel.png" alt="">
+        <span>400-9999-213</span>
+        <img src="../image/icon_service.png" alt="" class="ml-5">
+        <span>在线客服</span>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white ">
+
+      <img src="../image/logo.png" alt="" class="w-25 logo1">
+      <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+        aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto m-auto">
+          <li class="nav-item ml-5">
+            <a class="nav-link " data-toggle="tab" href="#d1">首页</a>
+          </li>
+          <li class="nav-item ml-5">
+            <a class="nav-link " data-toggle="tab" href="#d1">珠宝系列</a>
+          </li>
+
+          <li class="nav-item ml-5">
+            <a class="nav-link" data-toggle="tab" href="#d2">婚礼系列</a>
+          </li>
+
+          <li class="nav-item ml-5">
+            <a class="nav-link" data-toggle="tab" href="#d3">礼物</a>
+          </li>
+
+          <li class="nav-item ml-5">
+            <a class="nav-link" data-toggle="tab" href="#d4">金奉祥品牌</a>
+          </li>
+
+          <li class="nav-item ml-5">
+            <a class="nav-link" href="#d6 " data-toggle="tab">全球裸钻</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="demo" class="carousel " data-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../image/20181126142253173.jpg" alt="" class="w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../image/20181126151703103.jpg" alt="" class="w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="../image/20181127201357128.jpg" alt="" class="w-100">
+      </div>
+    </div>
+
+    <a href="#demo" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+    <a href="#demo" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+    <ul class="carousel-indicators">
+      <li data-slide-to="0" data-target="#demo" class="active"></li>
+      <li data-slide-to="1" data-target="#demo"></li>
+      <li data-slide-to="2" data-target="#demo"></li>
+    </ul>
+  </div>
+  <!-- 一楼 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 text-center">
+        <img class="img-fluid" src="../image/super_img1.png" alt="">
+        <p>SUPERLOVE/超级爱情</p>
+        <p>爱一生，不止一生</p>
+        <a href="javascript:;" class="abtn">
+          浏览此系列
+        </a>
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <div class="row">
+          <div class="col-6 f1-right"><a href="javascript:;" class="imgscale"> <img class="w-100 my-f1-img" src="../image/20181214164728120.png"
+                alt=""></a></div>
+          <div class="col-6 f1-right"><a href="javascript:;" class="imgscale"> <img class="w-100 my-f1-img" src="../image/20181212140436102.png"
+                alt=""></a></div>
+          <div class="col-6 f1-right"><a href="javascript:;" class="imgscale"> <img class="w-100 my-f1-img" src="../image/20181214170205113.png"
+                alt=""></a></div>
+          <div class="col-6 f1-right"><a href="javascript:;" class="imgscale"> <img class="w-100 my-f1-img" src="../image/20181214170455139.png"
+                alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 二楼 -->
+</body>
+
+</html>
